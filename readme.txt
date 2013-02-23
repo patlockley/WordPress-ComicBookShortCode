@@ -3,13 +3,17 @@ Contributors: pgogy
 Tags: comic book, comic, kapow
 Requires at least: 3.0.0
 Tested up to: 3.5
-Stable tag: 0.1
+Stable tag: 0.2
 
 Allows a user to add comic book like exclamations to their posts.
 
 == Description ==
 
 Allows a user to add comic book like exclamations to their posts. This shortcode allows colors, size and words to be specified into the post
+
+Please see http://www.pgogy.com and http://www.pgogy.com/code/groups/wordpress/comic-book-shortcode/ for support
+
+[vimeo https://vimeo.com/60034467]
 
 == Installation ==
 

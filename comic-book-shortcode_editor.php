@@ -5,11 +5,6 @@ add_action("admin_menu", "comicbookshortcode_editor_make");
 add_action( 'admin_enqueue_scripts', 'comicbookshortcode_editor_javascript' );
 
 function comicbookshortcode_editor_javascript($hook) {
-
-	global $post;
-	
-	if( 'post.php' != $hook )
-			return;
 		
 	wp_enqueue_script( 'comicbookshortcode_editor', plugins_url('/js/jscolor.js', __FILE__));
 	wp_enqueue_script( 'comicbookshortcode_add', plugins_url('/js/add_word.js', __FILE__));
@@ -38,9 +33,11 @@ function comicbookshortcode_editor(){
 		Background color<input class="color" type="text" value="#FFFF00" id="main" />
 		Shape Outline<input class="color" type="text" value="#FFFF00" id="outline" />
 	</p>
+	<p>
+		Shortcode <input type="text" size="100" id="comic_book_shortcode" />
+	</p>
 	<p><span style="border:1px solid black; cursor:pointer; cursor:hand; background:#dedede; padding:10px; margin-top:5px;" onclick="javascript:add_word()">Add to post</span></p><?PHP
 	
 }
 
 ?>
-	

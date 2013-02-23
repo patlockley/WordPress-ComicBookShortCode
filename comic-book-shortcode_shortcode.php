@@ -126,8 +126,10 @@
 			imagepng($im, $wp_dir['basedir'] . "/comic-book-shortcode/" . urlencode($word) . "_" . $size . ".png");
 			
 		}
+		
+		$dir = wp_upload_dir();
 
-		return '<img src="wp-content/uploads/comic-book-shortcode/' . urlencode($word)  . "_" . $size . '.png" />';
+		return '<img src="' . $dir['baseurl'] . '/comic-book-shortcode/' . urlencode($word)  . "_" . $size . '.png" />';
 		
 	}
 	

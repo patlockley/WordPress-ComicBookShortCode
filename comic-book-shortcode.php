@@ -3,9 +3,9 @@
 	/*
 	Plugin Name: Comic Book Shortcode 
 	Description: Adds Comic Book entries to posts
-	Version: 0.1
+	Version: 0.2
 	Author: pgogy
-	Plugin URI: http://www.pgogy.com/code/comic-book
+	Plugin URI: http://www.pgogy.com/code/groups/wordpress/comic-book-shortcode/
 	Author URI: http://www.pgogy.com
 	License: LGPL (for PHP and JS)	
 	*/
