@@ -2,7 +2,7 @@
 Contributors: pgogy
 Tags: comic book, comic, kapow
 Requires at least: 3.0.0
-Tested up to: 3.5
+Tested up to: 4.5
 Stable tag: 0.2
 
 Allows a user to add comic book like exclamations to their posts.
